@@ -36,7 +36,7 @@
             Date Time;
             String Dtime;
             hostName = InetAddress.getLocalHost().getHostName()+" with IP="+InetAddress.getLocalHost().getHostAddress()+" ";
-            serverName = System.getProperty("java.vm.name");
+            serverName = System.getProperty("weblogic.Name");
             Time = new Date();
             Dtime = Time.toString();
             %>
